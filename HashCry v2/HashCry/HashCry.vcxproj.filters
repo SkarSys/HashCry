@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{b74073c9-b087-4631-8970-8bdd83894086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encryption">
+      <UniqueIdentifier>{a2384f19-5eb6-4ac2-9131-e779b0388f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encryption\AES">
+      <UniqueIdentifier>{d3dd2352-fd43-4ea9-9f53-1b1e81f87b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encryption\Files">
+      <UniqueIdentifier>{39d780d6-a979-4a9e-a363-34cb1e7201d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings">
+      <UniqueIdentifier>{385a1e51-01ac-4a2e-a54b-380cb05bc463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\Settings">
+      <UniqueIdentifier>{d2177b88-4f2e-43d4-9129-df2683e3d96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\Key">
+      <UniqueIdentifier>{b7fe8357-e085-4068-9ecd-052e9bed42e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Payment">
+      <UniqueIdentifier>{51ab45e5-f811-4d6a-a6df-5fb28abd3d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Background">
+      <UniqueIdentifier>{350770de-2532-4819-9650-c1727f96087d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debug">
+      <UniqueIdentifier>{5b89daf3-7a9d-4167-8708-c7959e89a25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encryption\Salt and Hash">
+      <UniqueIdentifier>{ae3a09c6-543c-4458-9fd0-9a10fb5f6c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\Window">
+      <UniqueIdentifier>{b12f79ff-b765-4864-8da0-750ec2d7167f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\Window\ImGui">
+      <UniqueIdentifier>{eb12cf6d-9cd9-443e-9b9c-279281a84a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\Window\Render">
+      <UniqueIdentifier>{04d92d89-6798-490a-b906-5a38bee0599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Threads">
+      <UniqueIdentifier>{4658c69b-df2f-4a7b-9e4c-db1f952fe581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings\UserID">
+      <UniqueIdentifier>{e2a6d6e1-b96a-4027-bc84-35e3deed3233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Server">
+      <UniqueIdentifier>{36bf885f-724b-43fc-ae83-3dcd87c5a22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Server\Telegram">
+      <UniqueIdentifier>{105c0e29-2314-4795-b221-01a39b20aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Server\Communications">
+      <UniqueIdentifier>{ababf6fc-f6dc-43e9-a222-94c1ce60b78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source\Settings\Window\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Source\Settings\Window\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aes.h">
+      <Filter>Source\Encryption\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt_files.h">
+      <Filter>Source\Encryption\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Source\Settings\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="key_gen.h">
+      <Filter>Source\Settings\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Source\Settings\Window\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source\Settings\Window\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Source\Settings\Window\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="pay_check.h">
+      <Filter>Source\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source\Settings\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Source\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.h">
+      <Filter>Source\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Source\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="salt_and_hash.h">
+      <Filter>Source\Encryption\Salt and Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="threading.h">
+      <Filter>Source\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_ID.h">
+      <Filter>Source\Settings\UserID</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Source\Server\Telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="communications.h">
+      <Filter>Source\Server\Communications</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>Source\Settings\Window\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

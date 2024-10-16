@@ -3,5 +3,6 @@ POC Ransomware i made when i was into malware dev, it displays a fake BSOD and e
 Here is a video of it i made:
 
 
-https://github.com/user-attachments/assets/75775a30-cd33-4c4d-8778-6e3b0a63ce23
+
+https://github.com/user-attachments/assets/811e26b2-e5bd-45f5-a6b0-a7d68241cfd3
 
